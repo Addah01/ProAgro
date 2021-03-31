@@ -1,0 +1,57 @@
+.nav-top{
+	position:fixed;width:100%;z-index:1;
+	}
+	.nav-top{
+		top:0;
+		}
+		.my-logo{
+	width: 50px;
+	height: 50px;
+	box-sizing: all;
+}
+.green-border-btn{
+	background-color: transparent;
+	color: #003300;
+	border-style: hidden;
+	border-bottom:1.5px solid #003300;
+	border-radius: 4px 4px 0px 0px;	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 5px;
+	min-width: 100px;
+	outline: none;
+	font-family: sans-serif;
+}
+.green-border-btn:focus{
+	background-color: transparent;
+	color: #003300;
+	border-style: hidden;
+	border-bottom:1.5px solid #003300;
+	border-radius: 4px 4px 0px 0px;	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 5px;
+	min-width: 100px;
+	outline: none;
+}
+.green-border-btn-active{
+color:#003300; 
+border-left:1.5px solid #003300;
+border-right:1.5px solid #003300;
+border-top:1.5px solid #003300;
+border-bottom-style: hidden;
+outline: none; 
+font-weight: bold; 
+}
+.green-border-btn-active:focus{
+color:#009900; 
+border-left:1.5px solid #003300;
+border-right:1.5px solid #003300;
+border-top:1.5px solid #003300;
+border-bottom-style: hidden;
+outline: none;  
+}

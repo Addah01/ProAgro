@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.ProAgro.com.ng</title>
+   <link rel="stylesheet" type="text/css" href="assets/css/all.css">
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+        <style type="text/css">
+   
+
+.my-card{
+  float: left;
+  margin-right: 100px;
+  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  color:#001a00;
+  align-content: center;
+  display: block;
+  position: relative;
+  width: 270px;
+  height: 460px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+}
+.card-header{
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  border-radius: 25px 25px 0px 0px;
+  background: #004d00;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #80ff80 8%,   #001a00 83%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #80ff80 8%,  #001a00 83%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #80ff80 8%, #001a00 83%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#80ff80', endColorstr='#001a00', GradientType=1);
+
+}
+.head-image{
+  width: 150px;
+  height: 150px;
+  top:0;
+  margin-top: -90px;
+  border-radius: 75px;
+}
+.back-text {
+  display: inline-block;
+  font-size: 70px;
+  font-weight: 900;
+  margin-left: -7px;
+  margin-top: -12px;
+  opacity: 0.2;
+}
+.back-text-full {
+  display: inline-block;
+  font-size: 70px;
+  margin-left: 200px;
+  font-weight: 900;
+  margin-top: 12px;
+  opacity: 0.9;
+  text-shadow: -3px 3px 0.5px rgba(0,0,0,0.3);
+  }
+.head-text {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom:20px;
+  margin-top: 15px;
+  text-decoration: blink;
+  opacity: 0.4;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: -1px 1px 1px #001a00;
+  color: #004400;
+}
+.icon{
+  background-color: transparent;
+  margin:10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.icon:hover{
+ color: #004d00;
+ font-size: 25px;
+}
+.card-button{
+  background-color:#004d00;
+  color:#fff;
+  right: 0;
+  float: right;
+  display: block;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  position: relative;
+  margin-right: -50px;
+  padding-top:9px;
+  padding-bottom: 9px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 1.5px solid #004d00;
+  border-radius: 4px;
+}
+.head-icon{
+  float: left;
+  left: 0;
+  margin-left: 10px;
+  margin-right: -230px;
+  margin-top: 50px;
+  position: relative;
+  display: block;
+  font-size: 25px;
+}
+.my-container{
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.9;
+  align-content: center;
+  border: 1.0px solid #ccc;
+  border-radius: 4px;
+  box-shadow: -11px 11px 1px rgba(0,0,0,0.3);
+  padding: 16px 20px;
+}
+p{
+  color: #003300;
+}
+    </style>
+  }
+</head>
+
+<body id="body" >
+  <div class="nav-top">
+    <nav class="navbar navbar-expand-lg navbar-light nav-min-height" style="background-color: #003300;">
+    <span><a href="#" class="icon-active green-icon nav-logo"></a></span>
+    <span class="fas fa-cubes large"></span>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item ">
+        <a href="index.html"><button class="green-border-btn mgn-left">Home</button></a>
+      </li>
+       <li class="nav-item ">
+  <a href="farming.html"><button class="green-border-btn  green-border-btn-active">Education</button></a>
+  </li>
+  <li class="nav-item ">
+  <a href="login.html"><button class="green-border-btn ">Loan</button></a>
+  </li>
+   <li class="nav-item ">
+  <a href="login.html"><button class="green-border-btn">Land</button></a>
+            <li class="nav-item ">
+        <a href="market.html"><button class=" green-border-btn " >Market</button></a>
+      </li>
+      <li class="nav-item ">
+        <a href="login.html"><button class=" green-border-btn">About us</button></a>
+      </li>
+        </ul>
+
+  <a href="login.html"><button class="green-border-btn mgn-left" type="button">Account</button></a>
+</nav>
+</div>
+            <section class="top-category-widget-area pt-90 pb-90 " style="background-color: transparent;">
+    <div class="container">
+      <div class="my-container">
+        <div align="center">
+        <p class="back-text-full">ABOUT FARMING</p>
+        <p class="card-title">POST HARVEST SCIENCE</p>
+      </div>
+        <p>The term postharvest science denotes a dynamic interconnected functions or operations within a particular sphere of activity from harvesting up to the time the product reach the ultimate consumer. The process look at as a chain of activities from pre harvest  through a a conduit of products shelf life by which they undergo a functional succession of various operations.</p>
+        <p>STAGES OF POST-HARVEST PROCESSES</p>
+        <p> HARVESTING<br>
+  THRESHING<br>
+  DRYING<br>
+  STORING<br>
+  PROCESSING<br>
+  SECONDARY PROCESSING<br>
+  PRODUCT EVALUATION<br>
+  PACKAGING<br>
+  MARKETING<br>
+  USE<br>
+  CONSUMER PREFERENCES
+</p>
+<p>MAJOR FOOD PRODUCTS</p>
+<p>The following classification of food crops was developed by NSPRI to effectively conduct its services.<br>
+A.Durables – those are called grain or field crops and are stored at safe moisture content (SMC), and can be stored for a long period of time with minimum deterioration except otherwise attack by insects and rodents e.g.<br>
+   i) Cereals – Corn, sorghum, millet, rice, wheat, e.t.c.<br>
+   ii) Legumes – Pigeon pea, cowpea, soybean, bambaranut, e.t.c.<br>                                                                                                                        iii. Oil seeds- melon, peanuts, sun flower, Sesame, e.t.c<br>
+B. Semi-Perishables – those are agricultural commodities that can be stored shortly. Their shelf life can be increased when they are stored under high humidity but can be highly susceptible to pathogenic attacks from fungal and rodents. <br>
+    i) Roots – cassava, e.t.c.<br>
+    ii) Tubers–Yam, taro e.t.c.<br>
+C. Perishables – those are agricultural produce that are highly perishable with a natural shelf life of a few days because of their inherent moisture content. The pre disposing factors to perishability of those crops are physiological (temperature, moisture, time) pathological (fungal, bacteria, virus) and entomological (insects).<br> 
+a) Fruits – Carrots, Aubergeen, tomatoes e.t.c.<br>
+b) Vegetables – Lettuce, Amaranth, Cauliflower e.t.c.<br>
+D. Other agricultural Products: these are agricultural products of plants and origin. They can be easily spoilt by physical and chemical properties of the products. Spoilage results in foul odors, bubbles, putrid, moulds and color change. Microorganisms and insects are the major factors of spoilage.<br>
+a) Fish<br>
+b) Meat<br>
+c) Milk<br>
+The organizational headquarters is situated at ILORIN, Kwara state and outstations are located at:<br> 
+a) Kano–Kano state – North and North East<br>
+b) Sapele – South - South<br>
+c) Ibadan – South-West<br>
+d) Lagos – South-West<br>
+<button class="card-button">Read more</button>
+</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mgn-top">
+          <div class="single-cat-widget">
+            <div class="content relative">
+              <div class="overlay overlay-bg"></div>
+              <a href="#" target="_blank">
+                <div class="thumb">
+                  <img class="content-image img-fluid d-block mx-auto mgn-top" style="margin-top: 50px;" src="img/blog/cat-widget1.jpg" alt="">
+                </div>
+                <div class="content-details">
+                  <h4 class="content-title mx-auto text-uppercase span-margin">Market</h4>
+                  <span class="span-margin"></span>
+                  <p>Visite our market to view alot of agricultural produce available for you</p>
+                  <p>You can also advertise your product that are related to agriculture</p> 
+                  <p>click me to visite <i>MARKET</i></p>                 
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mgn-top">
+          <div class="single-cat-widget">
+            <div class="content relative">
+              <div class="overlay overlay-bg"></div>
+              <a href="#" target="_blank">
+                <div class="thumb">
+                  <img class="content-image img-fluid d-block mx-auto mgn-top" style="margin-top: 50px;" src="img/blog/cat-widget2.jpg" alt="">
+                </div>
+                <div class="content-details">
+                  <h4 class="content-title mx-auto text-uppercase">EDUCATION</h4>
+                
+                  <p>visite our educational sector to learn more about your farming</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-6 mgn-top">
+          <div class="single-cat-widget">
+            <div class="content relative">
+              <div class="overlay overlay-bg"></div>
+              <a href="#" target="_blank">
+                <div class="thumb">
+                  <img class="content-image img-fluid d-block mx-auto mgn-top" style="margin-top: 50px;" src="img/photos/agro3.jfif" alt="">
+                </div>
+                <div class="content-details">
+                  <h4 class="content-title mx-auto text-uppercase">LAND</h4>
+                  <span></span>
+                  <p>join us to buy or sell your land and even rent, in a very condusive price</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mgn-top">
+          <div class="single-cat-widget">
+            <div class="content relative">
+              <div class="overlay overlay-bg"></div>
+              <a href="#" target="_blank">
+                <div class="thumb">
+                  <img class="content-image img-fluid d-block mx-auto mgn-top" style="margin-top: 50px;" src="img/elements/g8.jpg" alt="">
+                </div>
+                <div class="content-details">
+                  <h4 class="content-title mx-auto text-uppercase">LOAN AND INVESTMENT</h4>
+                  <span></span>
+                  <p>Let the farmers gain from by investing and supporting them</p>
+                  <p>join us to loan some amount of money or interact with investors. </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container" align="center">
+  <div class="my-card">
+    <div class="card-header" style="border-radius: 30px 30px 0 0;">
+      <img src="img/faculty/farex1.jpg" class="head-image">
+      <span class="fa fa-graduation-cap head-icon"></span>
+            <span class="head-text">
+             FARUQ HASSAN
+            </span>
+       <span class="back-text">
+              FAREX
+            </span>
+    </div>
+    <div class="card-title">
+      faculty of web design
+    </div>
+    <div class="card-body">
+      <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+      <p><span class="fab fa-facebook-f icon"></span><span class="fab fa-twitter icon"></span><span class="fab fa-whatsapp icon"></span></p>
+      <button class="card-button">Read more</button>
+    </div>
+  </div>
+  <div class="my-card">
+    <div class="card-header" style="border-radius: 30px 30px 0 0;">
+      <img src="img/faculty/raj1.jpg" class="head-image">
+      <span class="fa fa-graduation-cap head-icon"></span>
+            <span class="head-text">
+             SOORAJ MUH'D
+            </span>
+       <span class="back-text">
+              RAJ
+            </span>
+    </div>
+    <div class="card-title">
+      faculty of web design
+    </div>
+    <div class="card-body">
+      <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+      <p><span class="fab fa-facebook-f icon"></span><span class="fab fa-twitter icon"></span><span class="fab fa-whatsapp icon"></span></p>
+      <button class="card-button">Read more</button>
+    </div>
+  </div>
+  <div class="my-card">
+    <div class="card-header" style="border-radius: 30px 30px 0 0;">
+      <img src="img/faculty/meenah1.jpg" class="head-image">
+      <span class="fa fa-graduation-cap head-icon"></span>
+            <span class="head-text">
+             AMINA UMAR
+            </span>
+       <span class="back-text">
+              ADDAH
+            </span>
+    </div>
+    <div class="card-title">
+      faculty of web design
+    </div>
+    <div class="card-body">
+      <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+      <p><span class="fab fa-facebook-f icon"></span><span class="fab fa-twitter icon"></span><span class="fab fa-whatsapp icon"></span></p>
+      <button class="card-button">Read more</button>
+    </div>
+  </div>
+  </div>
+        </div>
+        
+   <script src="js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+   crossorigin="anonymous"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/hoverIntent.js"></script>
+  <script src="js/superfish.min.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owl-carousel-thumb.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
